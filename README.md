@@ -1,4 +1,6 @@
 
+
+![sparkcykel](./admin/public/scooter.png)
 # vteam-frontend
 
 Detta är frontend-projektet för Vteam, utvecklat som en del av kursen på Blekinge Tekniska Högskola (BTH).
