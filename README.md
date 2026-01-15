@@ -26,6 +26,10 @@ All data och funktionalitet i frontend hämtas och hanteras via detta backend-AP
 └── vteam-frontend
     └── docker-compose.yml
 ```
+## Starta via docker
+
+Stå i vteam-frontend och kör ```docker-compose up -d``` för att starta upp admin-client, user-client, backend och databas.
+
 ## Kom igång
 1. Klona detta repo
 2. Installera beroenden med `npm install`
