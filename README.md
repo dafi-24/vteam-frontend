@@ -19,12 +19,12 @@ Frontend-projektet är utvecklat i samarbete med backend-repot [vteam-backend](h
 
 All data och funktionalitet i frontend hämtas och hanteras via detta backend-API.
 
-## Funktioner
-- Hantering av elsparkcyklar
-- Hantering av stationer
-- Användarhantering
-- Rapportsystem
-- Inloggning och autentisering
+## Filstruktur
+
+.
+├── vteam-backend
+└── vteam-frontend
+    └── docker-compose.yml
 
 ## Kom igång
 1. Klona detta repo
