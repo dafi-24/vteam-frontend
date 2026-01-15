@@ -26,6 +26,11 @@ All data och funktionalitet i frontend hämtas och hanteras via detta backend-AP
 └── vteam-frontend
     └── docker-compose.yml
 
+.
+├── vteam-backend
+└── vteam-frontend
+    └── docker-compose.yml
+
 ## Kom igång
 1. Klona detta repo
 2. Installera beroenden med `npm install`
