@@ -95,7 +95,6 @@
   font-weight: 600;
 }
 
-/* Error / small text */
 .error{
   color: var(--danger);
   font-size: 0.9rem;
@@ -107,7 +106,7 @@
   margin-top: 0.25rem;
 }
 
-/* Responsive */
+
 @media (max-width: 800px){
   .profile-card{
     flex-direction: column;
