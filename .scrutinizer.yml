@@ -1,7 +1,0 @@
-build:
-    environment:
-        node:
-            version: "16"
-    dependencies:
-        before:
-            - npm install
