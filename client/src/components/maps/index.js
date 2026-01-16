@@ -66,7 +66,7 @@ function Maps() {
       const data = await fetchScooters();
       setScooters(data);
     } catch (err) {
-      alert("Kunde inte hyra scooter: " + err.message);
+      alert("Kunde inte hyra scooter, saldo för lågt!: " + err.message);
     } finally {
       setRenting(false);
     }

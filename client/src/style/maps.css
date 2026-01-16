@@ -11,7 +11,6 @@
   color: #1a1a1a;
 }
 
-/* FILTER BUTTONS */
 .filter-buttons {
   display: flex;
   gap: 0.75rem;
@@ -114,5 +113,19 @@
   .btn-filter {
     padding: 0.5rem 1rem;
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .maps-container {
+    padding: 8px;
+    max-width: 100%;
+  }
+  .map-wrapper {
+    height: 250px;
+  }
+  .filter-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }

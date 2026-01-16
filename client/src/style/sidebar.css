@@ -5,16 +5,16 @@ html, body {
 
 .layout {
   display: flex;
-  min-height: 100vh; /* gör att layout fyller hela höjden */
+  min-height: 100vh;
 }
 
 .sidebar {
-  width: 240px;            /* justera bredd efter behov */
+  width: 240px;
   background: #1e3b22;
   color: #fff;
   padding: 1rem;
   box-sizing: border-box;
-  height: 100vh;           /* täcker hela viewport höjden */
+  height: 100vh;
   position: sticky;
   top: 0;
   overflow-y: auto;
@@ -44,11 +44,11 @@ html, body {
     align-items: center;
     gap: 10px;
     padding: 10px 10px 10px 10px;
-    height: auto; /* or auto */
+    height: auto;
 }
 
 .sidebar .logo-img {
-    width: 180px;      /* adjust as needed */
+    width: 180px;
     object-fit: contain;
     display: block;
 }
@@ -91,4 +91,62 @@ html, body {
 
 .logout-btn:hover {
     background: #dc2626;
+}
+
+.sidebar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    overflow: visible !important;
+  }
+  .sidebar-toggle {
+    display: block;
+  }
+  .sidebar-links {
+    display: none;
+    flex-direction: column;
+    background: rgba(30, 59, 34, 0.7);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 85px;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    z-index: 9999;
+    margin: 0;
+  }
+  .sidebar.open .sidebar-links {
+    display: flex;
+  }
+  .sidebar .logo {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .sidebar a, .logout-btn {
+    padding: 10px 8px;
+    font-size: 15px;
+    width: auto;
+    margin: 0 4px;
+    display: inline-block;
+  }
 }

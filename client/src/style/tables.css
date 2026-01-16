@@ -29,3 +29,16 @@
 .table tr:hover td {
   background: #fbfdff;
 }
+
+@media (max-width: 700px) {
+  .table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+  .table th, .table td {
+    white-space: nowrap;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}
