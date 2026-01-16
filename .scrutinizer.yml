@@ -26,7 +26,6 @@ build:
 
 checks:
     javascript: true
-    js_hint: true
     eslint: true
 
 coding_style:
