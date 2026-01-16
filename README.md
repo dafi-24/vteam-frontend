@@ -5,7 +5,7 @@
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dafi-24/vteam-frontend/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/dafi-24/vteam-frontend/)
 [![Scrutinizer Build Status](https://scrutinizer-ci.com/g/dafi-24/vteam-frontend/badges/build.png?b=main)](https://scrutinizer-ci.com/g/dafi-24/vteam-frontend/)
-[![Scrutinizer Coverage](https://scrutinizer-ci.com/g/dafi-24/vteam-frontend/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/dafi24/vteam-frontend/)
+[![Scrutinizer Coverage](https://scrutinizer-ci.com/g/dafi-24/vteam-frontend/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/dafi-24/vteam-frontend/)
 
 Detta är frontend-projektet för Vteam, utvecklat som en del av kursen på Blekinge Tekniska Högskola (BTH).
 
