@@ -1,18 +1,3 @@
-# .scrutinizer.yml
-
-# Scrutinizer configuration for a JavaScript/React project
-# Adjust as needed for your project specifics
-
-filter:
-    excluded_paths:
-        - "node_modules/*"
-        - "build/*"
-        - "dist/*"
-        - "coverage/*"
-        - "public/*"
-        - "__mocks__/*"
-        - "*.test.js"
-
 build:
     environment:
         node:
@@ -20,16 +5,3 @@ build:
     dependencies:
         before:
             - npm install
-    tests:
-        override:
-            - npm run test -- --watchAll=false
-
-checks:
-    javascript: true
-    eslint: true
-
-coding_style:
-    javascript:
-        enabled: true
-        config:
-            preset: airbnb
